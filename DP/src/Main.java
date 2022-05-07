@@ -7,11 +7,19 @@ public class Main {
         int res = lc.countSubstrings("abc");
         System.out.println(res);
 
-        List<String> list= new ArrayList<>();
+        List<String> list = new ArrayList<>();
         list.add("a");
         list.add("a");
 
-        System.out.println(list);
+
+        System.out.println("---------------");
+
+        LeetCode673 leetCode673 = new LeetCode673();
+        int[] nums = new int[]{
+                10,10
+        };
+
+        leetCode673.findNumberOfLIS(nums);
 
     }
 }
